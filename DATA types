@@ -1,0 +1,14 @@
+#numaric
+a=1L
+class(a)
+typeof(a)
+
+#integer
+b=2
+class(b)
+typeof(b)
+
+#charecter
+c="hello"
+class(c)
+typeof(c)
