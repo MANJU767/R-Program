@@ -1,0 +1,12 @@
+#using print function
+print("manjunatha")
+
+#using paste function 
+paste("manju","natha",sep="420")
+{
+#using sprintf function
+dog=readline("Enter your name: ")
+paste("Hello all MY name is :", dog )
+sprintf("Hello all MY name is %s", dog)
+printf("Hello all MY name is :", dog)
+}
