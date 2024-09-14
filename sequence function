@@ -1,0 +1,9 @@
+#create a vector using sequence function of length is 5 , find the sum of all
+   the elements of that vector.
+
+?seq
+vac=seq(2,6,length.out=5)
+vac
+sum(vac)
+sum(vac,NA,rm=TRUE)
+vac
