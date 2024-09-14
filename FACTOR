@@ -1,0 +1,18 @@
+#Data structure FACTOR
+?factor
+vac=c("M","F","F","M","F")
+f=factor(vac)
+f
+f1=factor(vac,levels = c("M","F","T"))
+f1
+f2=factor(vac,levels = c("M","F","T"),labels = c("Male","Female","Transgender"))
+f2
+f3=factor(vac,levels = c("M","F","T"),labels = c("Male","Female","Transgender"),
+          ordered = TRUE)
+f3
+is.factor(f3)
+f3[2]
+
+#change the second element to transgender
+f3[2]="Transgender"
+f3
