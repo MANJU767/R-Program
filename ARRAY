@@ -13,5 +13,5 @@ arr
 row_names=c("r1","r2")
 column_names=c("c1","c2")
 
-arr=array(c(vac1,vac2),dim=c(3,2),dimnames = c(row_names,column_names))
+arr=array(c(vac1,vac2),dim=c(3,2),dimnames = list(row_names,column_names))
 arr
