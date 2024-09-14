@@ -1,0 +1,7 @@
+#write a program to take string from the user and check if they are = or Not
+{
+s1=readline("Entet your name:")
+s2=readline("enter your second  name: ")
+
+cat(s1==s2,append = TRUE)
+}
