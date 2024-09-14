@@ -1,0 +1,13 @@
+#APPEND
+x=array(c(1,2,3,4,5,7,8,9))
+x
+x=append(x,6,5)
+x
+###print the > then values
+x[x>5]
+x[x>5&x<9]
+###print the, remove the value on temporary
+x[-5]
+##change the all values 9
+x[x]=9
+x
