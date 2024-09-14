@@ -1,0 +1,17 @@
+####DATA Structure ARRAY
+
+##create a array
+a=array(c(2,4,6,8,10),dim=3)
+
+#
+vac1=c(1,9)
+vac2=c(10,11,13)
+arr=array(c(vac1,vac2),dim=c(3,2))
+arr
+
+#create a array and give the row names R1,R2
+row_names=c("r1","r2")
+column_names=c("c1","c2")
+
+arr=array(c(vac1,vac2),dim=c(3,2),dimnames = c(row_names,column_names))
+arr
