@@ -1,0 +1,13 @@
+#create a factor which contains the servey results for a producat launch with good, average & bad reviews, ttake the servey of 10 people& print the choices shared by them.  
+# Define the possible choices for the survey
+choices <- c("Good", "Average", "Bad")
+
+# Conduct a survey of 10 people (randomly selecting their responses)
+set.seed(123)  # To make the random selection reproducible
+survey_results <- sample(choices, size = 10, replace = TRUE)
+
+# Create a factor from the survey results
+survey_factor <- factor(survey_results, levels = choices)
+
+# Print the choices shared by respondents
+print(survey_factor)
