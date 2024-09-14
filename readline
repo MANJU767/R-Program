@@ -1,0 +1,14 @@
+#Takeing user input 
+manju=readline("Enter your name:")
+
+#convert char value into integer
+#method 1
+manju=as.integer(manju)
+#method 2
+manju1=as.integer(readline("Enter your class:"))
+
+#you take a multipale values on user input
+{
+  man=as.integer(readline("Enter your room No:"))
+  man1=as.integer(readline("Enter your time:"))
+}
