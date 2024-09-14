@@ -1,0 +1,16 @@
+#Value accessing in a variable
+a=6
+b<-5
+6->f
+a.d=7
+class(a.d)
+g<-3
+
+#listing the variables an using LS
+ls()
+
+#removing the variable in list an using RM
+rm(g)
+#moving the value in one variable into anther variable
+.s=10
+f<-s
