@@ -1,0 +1,14 @@
+#Write a program to check if the student is ellegeble for placement ,take the
+input from the student as the current CGPI as well as Certifiacate dump
+    1) Check for the same using & and |
+
+{
+stu1=as.double(readline("Enter the CGPA :"))
+stu2=readline("You have a certificats? (yes/no) :")
+#case1
+case=((stu1>=8.0) && (stu2=="yes"))
+print(case)
+#case2
+case2=((stu1>=8.0) || (stu2=="yes"))
+print(case2)
+}
