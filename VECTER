@@ -1,0 +1,13 @@
+#Data structure VECTOR
+vac5=c(2,4,6,7,8,9,NA)
+vac5[6]
+length(vac5)
+vac5[NA]=10
+vac5
+
+#removing the variable
+vac6=c(1,2,3,4,5,6,7,8,9,9)
+rm=vac6
+
+#removing elemente in vecter
+print(vac5[! vac5%in% c(2)])
