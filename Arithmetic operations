@@ -1,0 +1,17 @@
+#arithmetic operations in paste
+{num1=as.integer(readline("Enter a first No :"))
+num2=as.integer(readline("Enter a first No :\n"))
+}
+paste("Sum value:",num1 + num2)
+paste("SUB value:",num1 - num2)
+paste("MUL value:",num2 * num2)
+paste("DIV value:",num1 / num2)
+paste("remainder value:",num1 %% num2)
+paste("remainder value:",num1 %/% num2)
+paste("power value:",num1 ^ num2)
+
+#arithmetic operations in cat 
+{
+cat(num1==num2,file="r program.txt")
+cat(a/b,file="demo.txt",append = TRUE)
+cat()}
