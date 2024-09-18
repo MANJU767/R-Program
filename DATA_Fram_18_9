@@ -1,0 +1,23 @@
+#data fram
+?data.frame
+printf("Dasarapalli manjunatha")
+printf("AIT24BEAI060")
+# Creating a data frame for university details
+ID = c(101, 102, 103, NA)
+Name = c("Acharya University", "PES University", "MIT", "RV University")
+location = c("bengaluru, KA", "Bengaluru, KA", "bengaluru, KA", "karnataka, KA")
+strength = c(24000, 16000, 11000, 20000)
+un_data = data.frame(
+  "Is"=ID,
+  Name,
+  location,
+  strength
+)
+
+# Display the university data frame
+print(university_data)
+
+#checking the table structure
+str(un_data)
+#checking the table summary
+summary(un_data)
