@@ -1,0 +1,24 @@
+#topic
+#list 
+?list
+printf("Dasarapalli manjunatha")
+printf("AIT24BEAI060")
+# Creating the employee details list
+# Employee IDs
+emp_id <- c(101, 102, 103, 104)
+
+# Employee Names
+emp_name =c("John Doe", "Jane Smith", "Mark Johnson", "Emily Davis")
+
+# Number of Employees
+no_of_employees=length(emp_id)
+
+# Creating the employee list
+employees_list <- list(
+  emp_id = emp_id,
+  emp_name = emp_name,
+  no_of_employees = no_of_employees,
+  name_list = emp_name  # Adding employee names as a name list
+)
+
+print(employees_list)
