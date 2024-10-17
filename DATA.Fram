@@ -1,0 +1,118 @@
+
+#data fram
+?data.frame
+# Creating a data frame for university details
+ID = c(101, 102, 103, NA)
+Name = c("Acharya University", "PES University", "MIT", "RV University")
+location = c("bengaluru, KA", "Bengaluru, KA", "bengaluru, KA", "karnataka, KA")
+strength = c(24000, 16000, 11000, 20000)
+un_data = data.frame(
+  "Is"=ID,
+  Name,
+  location,
+  strength
+)
+
+# Display the university data frame
+print(university_data)
+
+#checking the table structure
+str(un_data)
+#checking the table summary
+summary(un_data)
+
+
+#problem
+#Write a R program to create a list containing strings, numbers, vectors and a logical values.
+
+list_data = list("Python", "PHP", c(5, 7, 9, 11), TRUE, 125.17, 75.83)
+
+# Print a message to indicate the data of the list
+print("Data of the list:")
+
+# Print the actual list data
+print(list_data)
+
+
+#problem
+#2. Write a R program to 
+#create a list containing a vector, a matrix and a list 
+#give names to the elements in the list. 
+#Access the first and second element of the list.
+#add element at the end of the list.
+#remove the second element.
+#update the last element.
+
+
+list_data = list(
+  vector = c("Red", "Green", "Blue"),
+  matrix = matrix(c(1, 2, 3, 4, 5, 6), nrow = 2),
+  sublist = list("Python", "R", "Java")
+)
+
+# Give names to the elements in the list
+names(list_data) = c("Colors", "Numbers", "Languages")
+
+# Access the first and second element of the list
+first_element = list_data[[1]]
+second_element = list_data[[2]]
+
+# Print the first and second elements
+print("First element of the list:")
+print(first_element)
+print("Second element of the list:")
+print(second_element)
+
+# Add an element at the end of the list
+list_data$NewElement = "New Value"
+
+# Remove the second element
+list_data$Numbers = NULL
+
+# Update the last element
+list_data$NewElement = "Updated Value"
+
+# Print the modified list
+print("Modified list:")
+print(list_data)
+
+
+#problem
+#create a data_frame using two different vectors user_id, user_name
+user_id=c(401,402,403,404,405)
+user_name=c("manju","raju","mani","mani","mani")
+manju=data.frame(user_id,user_name,stringsAsFactors = TRUE)
+print(manju)
+summary(manju)
+str(manju)
+
+#problem
+#access
+id=c(401,402,403,404,405)
+name=c("manju","raju","mani","mani","mani")
+manju=data.frame("id"=user_id,"name"=user_name)
+print(manju)
+manju$name
+manju
+#problem
+#add new column user_location to the data_frame
+id=c(401,402,403,404,405)
+name=c("manju","raju","mani","mani","mani")
+manju=data.frame("id"=user_id,"name"=user_name)
+print(manju)
+manju$location=c("deli","bengaluru","deli","bengaluru","deli")#new column
+manju
+#
+manju[1]#printing first column
+manju[[2]]#printing first column
+manju$location#printing first column
+dim(manju)#checking dimensions
+#problem
+manju=rbind(manju,c(406,"arsalan","vijayanagara"))#adding new row
+manju
+#adding new column
+manju=cbind(manju,"commpany"=c("deli","bengaluru","deli","bengaluru","deli","nanu"))#adding new column
+manju
+manju=manju[-c(4),-c(6)]#removing row and column
+manju
+length(manju)#checking the length
