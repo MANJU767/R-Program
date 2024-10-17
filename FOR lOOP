@@ -1,0 +1,23 @@
+#FOR loop
+#write a program to print square  of even numbers from  1 to 10 in using for loop
+for (i in 1:10){
+  if (i%%2==0){
+    print(i^2)
+  }
+}
+
+#create a vector and print all the values of vector increase by the 5
+{
+v=c(2,3,4,5,6,7,8)
+for(i in v){
+  print(i+1)
+}}
+
+#problem 2
+for(i in c(2,3,4,5))
+{print(i+1)}
+
+#problem 3
+for(i in 1:7){
+  print(i+1)
+}
