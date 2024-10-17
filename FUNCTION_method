@@ -1,0 +1,132 @@
+#30/9/2024
+#new topic
+#FUNCTIONS
+#Argument 
+# two types of arguments
+#1 Formal
+#2 actual
+
+
+#creating function
+add = function(){
+  a=10
+  b=20
+  print(a+b)
+}
+  add()
+  add()
+  add(5)
+  add(5,10)
+  
+#
+  add1 = function(a){
+    a=10
+    b=20
+    print(a+b)
+  }
+  add1()
+  add1()
+  add1(5)
+  add1(5,10)
+  
+  
+  
+#write program to create function if that check if the number passed  during the calling statement is even of odd  
+{
+  check=function(a)
+{
+  if (a%%2==0){
+    print("this number is even")
+  }else{
+    print("this is odd")
+  }
+}
+
+check(5)
+  }
+#relapsing print to return
+  {
+    check=function(a)
+    {
+      if (a%%2==0){
+        return("this number is even")
+      }else{
+        return("this is odd")
+      }
+    }
+    
+    check(5)
+  }
+#
+  {
+    check=function(a=25)
+    {
+      if (a%%2==0){
+        return("this number is even")
+      }else{
+        return("this is odd")
+      }
+    }
+    
+    check(3)
+  }
+#write a program to find area of rectangel by demenctrating concept of this 
+  {rectangel=function(L=10, W=20 ){
+return (L*W)
+    
+  }
+  rectangel(10,20)
+  rectangel(W=50,L=100)
+  }
+
+#find the factorial of a number
+  {
+    n=5
+    i=1
+    me=1
+    while (i<=n){
+      me=me*i
+      i=i+1
+    }
+    print(me)
+  }
+  
+# Function to calculate factorial using while loop
+  factorial_while <- function(n) {
+    factorial <- 1
+    while (n > 0) {
+      factorial <- factorial * n
+      n <- n - 1
+    }
+    return(factorial)
+  }
+  
+  # Example usage
+  number <- 5
+  result <- factorial_while(number)
+  cat("The factorial of", number, "is", result)
+
+  
+#write a program to check if number is divisible by 5 using default argument in the function 
+  {divi=function(a){
+    if (a/5==0){
+      print("a")
+    }
+  }
+    divi(4)}
+  divi(4)
+#
+  names(methods:::.BasicFunsList)
+  
+#
+ v1=c(2,3,4,5,6,7,8)
+  v2=c(9,8,7,6,5,4,3,2)
+  sum(v1)
+  sum(v2)
+  max(v1)
+min(v1)  
+mean(v1)
+mediam(v1)
+print(v1+v2)
+print(v1+10)
+
