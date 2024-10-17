@@ -1,0 +1,11 @@
+#packges
+  search()
+
+  #if you want install any packages are use this command
+  install.packages("mass")
+  library(mass)
+#install 
+  installed.packages()
+  
+  install.packages("tidyverse")
+  
