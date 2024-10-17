@@ -1,0 +1,37 @@
+  
+#14/10/2024
+  #recorrtion
+  #return
+  # Define the recursive function
+  {sum = function(n) {
+    if (n == 0) {
+      return(0) 
+    }
+      return(n + sum(n - 1))  
+    
+  }
+  
+  n = as.integer(readline("Enter the NO :"))
+  sum_result = sum(n)
+  print(sum_result)
+  }
+##work
+##Factorial
+  {
+  factorial <- function(n) {
+    if (n == 0 || n == 1) {
+      return(1)  
+    } else {
+      return(n * factorial(n - 1))
+    }
+  }
+  
+
+  n = as.integer(readline("enter a NO :"))
+  factorial_result= factorial(n)
+  
+
+  print(factorial_result)
+  }
+
+  
