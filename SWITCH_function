@@ -1,0 +1,58 @@
+#SWITCH Function
+#Calculater
+{
+  a = as.integer(readline("Enter the first num1 : "))  
+  b = as.integer(readline("Enter the first num1 : ")) 
+  condition <- readline("Enter the operation : ")
+  {
+    result = switch(condition,  
+                    "+"= cat("Addition = ", a + b),  
+                    "-"= cat("Subtraction =", a - b),  
+                    "/"= cat("Division = ", a / b),  
+                    "*"= cat("Multiplication =", a * b),
+                    "%"= cat("Modulus =", a %% b),
+                    "%/"= cat("=", a %/% b )
+    )
+  }
+  result
+}
+
+#25/9
+#
+#and unnamed case can be used if there is nomached case
+#write a r program using switch case  to find the name of day of week as for the taking user
+{
+  day1=as.integer(readline("enter the num:"))
+
+{
+  result = switch(day1,  
+                 "Sunday",
+                 "monday",
+                 "tusday",
+                 "wednesday",
+                 "thursday",
+                 "friday",
+                 "satday"
+  )
+}
+result
+}
+
+#problem
+{
+  day1=as.integer(readline("enter the num:"))
+  
+  {
+    result = switch(day1,  
+                    "1"="Sunday",
+                    "2"="monday",
+                    "3"="tusday",
+                    "4"="w ednesday",
+                    "5"="thursday",
+                    "6"="friday",
+                    "7"="satday",
+                    "0"="Invalid"
+    )
+  }
+  result
+}
