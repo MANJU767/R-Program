@@ -1,0 +1,14 @@
+#REPEAT LOOP
+#this is infinaitly loop
+repeat {print("hi")}
+
+#problem 2
+
+{i=0
+repeat {
+  print("MANJU")
+  i=i+1
+  if (i>10){
+    break
+  }
+}}
